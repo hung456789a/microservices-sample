@@ -2,7 +2,7 @@ services:
   api-gateway:
     container_name: "api-gateway"
     hostname: "api-gateway"
-    build: .ls 
+    build: .
     ports:
       - "8080:8080"
     expose:
