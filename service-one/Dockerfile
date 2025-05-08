@@ -1,6 +1,6 @@
 FROM maven:3.6-openjdk-17 AS maven_tool
 WORKDIR /tmp/
-COPY . /tmp/
+COPY src /tmp/src/
 RUN mvn -B clean package
 FROM openjdk:17-jdk
 EXPOSE 8080
