@@ -14,3 +14,4 @@ import org.springframework.stereotype.Repository;
 public interface NameValueRepository extends ReactiveMongoRepository<NameValue, String> {
 
 }
+//Khai báo Interface Repository
